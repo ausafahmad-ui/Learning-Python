@@ -1,0 +1,38 @@
+'''
+upper()
+lower()
+capitalize()
+title()
+strip()
+replace()
+find()
+count()
+startswith()
+endswith()
+split()
+join()
+isalpha()
+isdigit()
+isalnum()
+center()
+zfill() '''
+
+# STRING:It is Immutable:
+name="Ausaf Ahmad Khan"
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
+print(name.title())
+print(name.strip())
+print(name.replace("Ahmad", "Ali"))
+print(name.find("Ahmad"))
+print(name.count("a"))
+print(name.startswith("Ausaf"))
+print(name.endswith("Khan"))
+print(name.split())
+print("-".join(["Ausaf", "Ahmad", "Khan"]))
+print(name.isalpha())   #should be only alphbates even no space and secial characters.
+print(name.isdigit())
+print(name.isalnum())
+print(name.center(20))
+print(name.zfill(20))   
