@@ -21,6 +21,6 @@
 s={1,4,"3","Adeeb"}
 print(s)
 print(type(s))
-s.add([907,"p"])
-s.update([20,"hh"])
+s.add("oo")     #add one element hoga to ek hi provide karte hai
+s.update([20,"hh"]) #Update
 print(s)
